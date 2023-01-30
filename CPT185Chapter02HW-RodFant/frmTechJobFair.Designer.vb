@@ -27,7 +27,7 @@ Partial Class frmTechJobFair
         Me.btnViewJobFairDetails = New System.Windows.Forms.Button()
         Me.lblDate = New System.Windows.Forms.Label()
         Me.lblRoomLocation = New System.Windows.Forms.Label()
-        Me.lblRoomNumbers = New System.Windows.Forms.Label()
+        Me.lblRoomNumber = New System.Windows.Forms.Label()
         Me.picFair = New System.Windows.Forms.PictureBox()
         Me.btnExit = New System.Windows.Forms.Button()
         CType(Me.picFair, System.ComponentModel.ISupportInitialize).BeginInit()
@@ -83,15 +83,15 @@ Partial Class frmTechJobFair
         Me.lblRoomLocation.TabIndex = 4
         Me.lblRoomLocation.Text = "Located in Lochlen Hall"
         '
-        'lblRoomNumbers
+        'lblRoomNumber
         '
-        Me.lblRoomNumbers.AutoSize = True
-        Me.lblRoomNumbers.Font = New System.Drawing.Font("Tahoma", 10.8!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.lblRoomNumbers.Location = New System.Drawing.Point(146, 311)
-        Me.lblRoomNumbers.Name = "lblRoomNumbers"
-        Me.lblRoomNumbers.Size = New System.Drawing.Size(94, 23)
-        Me.lblRoomNumbers.TabIndex = 5
-        Me.lblRoomNumbers.Text = "Room 101"
+        Me.lblRoomNumber.AutoSize = True
+        Me.lblRoomNumber.Font = New System.Drawing.Font("Tahoma", 10.8!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.lblRoomNumber.Location = New System.Drawing.Point(146, 311)
+        Me.lblRoomNumber.Name = "lblRoomNumber"
+        Me.lblRoomNumber.Size = New System.Drawing.Size(94, 23)
+        Me.lblRoomNumber.TabIndex = 5
+        Me.lblRoomNumber.Text = "Room 101"
         '
         'picFair
         '
@@ -118,7 +118,7 @@ Partial Class frmTechJobFair
         Me.ClientSize = New System.Drawing.Size(569, 402)
         Me.Controls.Add(Me.btnExit)
         Me.Controls.Add(Me.picFair)
-        Me.Controls.Add(Me.lblRoomNumbers)
+        Me.Controls.Add(Me.lblRoomNumber)
         Me.Controls.Add(Me.lblRoomLocation)
         Me.Controls.Add(Me.lblDate)
         Me.Controls.Add(Me.btnViewJobFairDetails)
@@ -136,7 +136,7 @@ Partial Class frmTechJobFair
     Friend WithEvents btnViewJobFairDetails As Button
     Friend WithEvents lblDate As Label
     Friend WithEvents lblRoomLocation As Label
-    Friend WithEvents lblRoomNumbers As Label
+    Friend WithEvents lblRoomNumber As Label
     Friend WithEvents picFair As PictureBox
     Friend WithEvents btnExit As Button
 End Class
